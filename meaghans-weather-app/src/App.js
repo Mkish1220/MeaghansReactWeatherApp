@@ -3,7 +3,7 @@ import axios from 'axios';
 
 function App() {
 
-  const url ='https://api.openweathermap.org/data/2.5/weather?q=knoxville&appid=192aa32e12efeef9298dceab17715f5a';
+  // const url ='https://api.openweathermap.org/data/2.5/weather?q=knoxville&appid=192aa32e12efeef9298dceab17715f5a';
   
   
    return (
