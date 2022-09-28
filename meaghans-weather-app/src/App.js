@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-
+import './index.css';
 function App() {
   const [data, setData] = useState({})
   const [location, setLocation] = useState('')
-const url ='https://api.openweathermap.org/data/2.5/weather?q=knoxville&appid=192aa32e12efeef9298dceab17715f5a';
+const url =`https://api.openweathermap.org/data/3.0/onecall?lat={63}&lon={38}&exclude={part}&appid=192aa32e12efeef9298dceab17715f5a`;
 
 
   const searchLocation = (event) => {
